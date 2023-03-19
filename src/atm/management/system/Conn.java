@@ -17,7 +17,7 @@ public class Conn {
          
         try
         {
-            connection = DriverManager.getConnection("jdbc:mysql:///atmmanagementsystem","root","navneetkumar");          
+            connection = DriverManager.getConnection("jdbc:mysql:///atmmanagementsystem","root_name","password");          
             s = connection.createStatement();
             
             
